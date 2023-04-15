@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32276C1D29EA97BD00D61BA2 /* GoogleIdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32276C1C29EA97BD00D61BA2 /* GoogleIdPage.swift */; };
 		322CE91429E91B7B0061BC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91329E91B7B0061BC59 /* AppDelegate.swift */; };
 		322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91529E91B7B0061BC59 /* SceneDelegate.swift */; };
 		322CE91829E91B7B0061BC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91729E91B7B0061BC59 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32276C1C29EA97BD00D61BA2 /* GoogleIdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleIdPage.swift; sourceTree = "<group>"; };
 		322CE91029E91B7B0061BC59 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		322CE91329E91B7B0061BC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		322CE91529E91B7B0061BC59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				322CE91529E91B7B0061BC59 /* SceneDelegate.swift */,
 				322CE91729E91B7B0061BC59 /* ViewController.swift */,
 				322CE91929E91B7B0061BC59 /* Main.storyboard */,
+				32276C1C29EA97BD00D61BA2 /* GoogleIdPage.swift */,
 				322CE93029EA80880061BC59 /* CreateAccountPage.swift */,
 				322CE92E29EA76AA0061BC59 /* ForgotPassword.swift */,
 				322CE92C29E9627D0061BC59 /* LoginPage.swift */,
@@ -154,6 +157,7 @@
 				322CE91429E91B7B0061BC59 /* AppDelegate.swift in Sources */,
 				322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */,
 				322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */,
+				32276C1D29EA97BD00D61BA2 /* GoogleIdPage.swift in Sources */,
 				322CE92D29E9627D0061BC59 /* LoginPage.swift in Sources */,
 				322CE91E29E91B7B0061BC59 /* Twitter.xcdatamodeld in Sources */,
 				322CE92F29EA76AA0061BC59 /* ForgotPassword.swift in Sources */,

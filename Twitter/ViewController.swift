@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(navigation, animated: true)
         }
     @IBAction func googleButtonAction(_ sender: UIButton) {
+        let navigation = storyboard?.instantiateViewController(identifier: "GoogleIdPage") as! GoogleIdPage
+        navigationController?.pushViewController(navigation, animated: true)
         
     }
     @IBAction func createAccountAction(_ sender: UIButton) {

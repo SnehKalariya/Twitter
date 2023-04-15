@@ -13,7 +13,6 @@ class CreateAccountPage: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         label4.text = "Create your account"
-        
     }
     
 }
