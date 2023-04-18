@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var googleButton: UIButton!
     @IBOutlet weak var line1Label: UILabel!
@@ -20,18 +20,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         label1.text = "See what's \nhappening in the \nworld right now."
     }
-
+    
     @IBAction func loginButtonAction(_ sender: UIButton) {
         let navigation = storyboard?.instantiateViewController(identifier: "LoginPage") as! LoginPage
         navigationController?.pushViewController(navigation, animated: true)
-        }
-    @IBAction func googleButtonAction(_ sender: UIButton) {
-        let navigation = storyboard?.instantiateViewController(identifier: "GoogleIdPage") as! GoogleIdPage
-        navigationController?.pushViewController(navigation, animated: true)
-        
     }
     @IBAction func createAccountAction(_ sender: UIButton) {
         let navigation = storyboard?.instantiateViewController(identifier: "CreateAccountPage") as! CreateAccountPage
         navigationController?.pushViewController(navigation, animated: true)
     }
+    
 }

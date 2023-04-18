@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32276C1D29EA97BD00D61BA2 /* GoogleIdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32276C1C29EA97BD00D61BA2 /* GoogleIdPage.swift */; };
 		322CE91429E91B7B0061BC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91329E91B7B0061BC59 /* AppDelegate.swift */; };
 		322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91529E91B7B0061BC59 /* SceneDelegate.swift */; };
 		322CE91829E91B7B0061BC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91729E91B7B0061BC59 /* ViewController.swift */; };
@@ -18,10 +17,13 @@
 		322CE92D29E9627D0061BC59 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE92C29E9627D0061BC59 /* LoginPage.swift */; };
 		322CE92F29EA76AA0061BC59 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE92E29EA76AA0061BC59 /* ForgotPassword.swift */; };
 		322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE93029EA80880061BC59 /* CreateAccountPage.swift */; };
+		3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231C04229EAAFB8001A542D /* SignUpMain.swift */; };
+		3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */; };
+		3268299229EE7254001E1DB1 /* DPOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268299129EE7254001E1DB1 /* DPOTPView.swift */; };
+		3268299529EE72AD001E1DB1 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = 3268299429EE72AD001E1DB1 /* DPOTPView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32276C1C29EA97BD00D61BA2 /* GoogleIdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleIdPage.swift; sourceTree = "<group>"; };
 		322CE91029E91B7B0061BC59 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		322CE91329E91B7B0061BC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		322CE91529E91B7B0061BC59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +36,9 @@
 		322CE92C29E9627D0061BC59 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		322CE92E29EA76AA0061BC59 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 		322CE93029EA80880061BC59 /* CreateAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPage.swift; sourceTree = "<group>"; };
+		3231C04229EAAFB8001A542D /* SignUpMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMain.swift; sourceTree = "<group>"; };
+		3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedioButtonPage.swift; sourceTree = "<group>"; };
+		3268299129EE7254001E1DB1 /* DPOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPOTPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3268299529EE72AD001E1DB1 /* DPOTPView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +76,9 @@
 				322CE91529E91B7B0061BC59 /* SceneDelegate.swift */,
 				322CE91729E91B7B0061BC59 /* ViewController.swift */,
 				322CE91929E91B7B0061BC59 /* Main.storyboard */,
-				32276C1C29EA97BD00D61BA2 /* GoogleIdPage.swift */,
+				3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */,
+				3268299129EE7254001E1DB1 /* DPOTPView.swift */,
+				3231C04229EAAFB8001A542D /* SignUpMain.swift */,
 				322CE93029EA80880061BC59 /* CreateAccountPage.swift */,
 				322CE92E29EA76AA0061BC59 /* ForgotPassword.swift */,
 				322CE92C29E9627D0061BC59 /* LoginPage.swift */,
@@ -98,6 +106,9 @@
 			dependencies = (
 			);
 			name = Twitter;
+			packageProductDependencies = (
+				3268299429EE72AD001E1DB1 /* DPOTPView */,
+			);
 			productName = Twitter;
 			productReference = 322CE91029E91B7B0061BC59 /* Twitter.app */;
 			productType = "com.apple.product-type.application";
@@ -126,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 322CE90729E91B7B0061BC59;
+			packageReferences = (
+				3268299329EE72AD001E1DB1 /* XCRemoteSwiftPackageReference "DPOTPView" */,
+			);
 			productRefGroup = 322CE91129E91B7B0061BC59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -153,11 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3268299229EE7254001E1DB1 /* DPOTPView.swift in Sources */,
 				322CE91829E91B7B0061BC59 /* ViewController.swift in Sources */,
 				322CE91429E91B7B0061BC59 /* AppDelegate.swift in Sources */,
+				3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */,
 				322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */,
 				322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */,
-				32276C1D29EA97BD00D61BA2 /* GoogleIdPage.swift in Sources */,
+				3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */,
 				322CE92D29E9627D0061BC59 /* LoginPage.swift in Sources */,
 				322CE91E29E91B7B0061BC59 /* Twitter.xcdatamodeld in Sources */,
 				322CE92F29EA76AA0061BC59 /* ForgotPassword.swift in Sources */,
@@ -378,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3268299329EE72AD001E1DB1 /* XCRemoteSwiftPackageReference "DPOTPView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Datt1994/DPOTPView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3268299429EE72AD001E1DB1 /* DPOTPView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3268299329EE72AD001E1DB1 /* XCRemoteSwiftPackageReference "DPOTPView" */;
+			productName = DPOTPView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		322CE91C29E91B7B0061BC59 /* Twitter.xcdatamodeld */ = {
