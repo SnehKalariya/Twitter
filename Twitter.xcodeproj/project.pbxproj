@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32215BAC29EFAE2600ED1367 /* OTPPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BAB29EFAE2600ED1367 /* OTPPage.swift */; };
+		32215BAE29EFB48400ED1367 /* InformationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BAD29EFB48400ED1367 /* InformationPage.swift */; };
+		32215BB029F1119100ED1367 /* popPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BAF29F1119100ED1367 /* popPopViewController.swift */; };
+		32215BB229F266BF00ED1367 /* LanguagesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BB129F266BF00ED1367 /* LanguagesPage.swift */; };
+		32215BB429F79B9D00ED1367 /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BB329F79B9D00ED1367 /* TopicViewController.swift */; };
+		32215BB629FA499800ED1367 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BB529FA499800ED1367 /* MyCollectionViewCell.swift */; };
+		32215BBA29FB945D00ED1367 /* UserNamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BB929FB945D00ED1367 /* UserNamePage.swift */; };
 		322CE91429E91B7B0061BC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91329E91B7B0061BC59 /* AppDelegate.swift */; };
 		322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91529E91B7B0061BC59 /* SceneDelegate.swift */; };
 		322CE91829E91B7B0061BC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE91729E91B7B0061BC59 /* ViewController.swift */; };
@@ -18,12 +25,20 @@
 		322CE92F29EA76AA0061BC59 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE92E29EA76AA0061BC59 /* ForgotPassword.swift */; };
 		322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE93029EA80880061BC59 /* CreateAccountPage.swift */; };
 		3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231C04229EAAFB8001A542D /* SignUpMain.swift */; };
+		3237E34529FB965700DCB16C /* PickProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237E34429FB965700DCB16C /* PickProfilePicture.swift */; };
 		3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */; };
 		3268299229EE7254001E1DB1 /* DPOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268299129EE7254001E1DB1 /* DPOTPView.swift */; };
 		3268299529EE72AD001E1DB1 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = 3268299429EE72AD001E1DB1 /* DPOTPView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32215BAB29EFAE2600ED1367 /* OTPPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPPage.swift; sourceTree = "<group>"; };
+		32215BAD29EFB48400ED1367 /* InformationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationPage.swift; sourceTree = "<group>"; };
+		32215BAF29F1119100ED1367 /* popPopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPopViewController.swift; sourceTree = "<group>"; };
+		32215BB129F266BF00ED1367 /* LanguagesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesPage.swift; sourceTree = "<group>"; };
+		32215BB329F79B9D00ED1367 /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		32215BB529FA499800ED1367 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		32215BB929FB945D00ED1367 /* UserNamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNamePage.swift; sourceTree = "<group>"; };
 		322CE91029E91B7B0061BC59 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		322CE91329E91B7B0061BC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		322CE91529E91B7B0061BC59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +52,7 @@
 		322CE92E29EA76AA0061BC59 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 		322CE93029EA80880061BC59 /* CreateAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPage.swift; sourceTree = "<group>"; };
 		3231C04229EAAFB8001A542D /* SignUpMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMain.swift; sourceTree = "<group>"; };
+		3237E34429FB965700DCB16C /* PickProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickProfilePicture.swift; sourceTree = "<group>"; };
 		3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedioButtonPage.swift; sourceTree = "<group>"; };
 		3268299129EE7254001E1DB1 /* DPOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPOTPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +92,14 @@
 				322CE91529E91B7B0061BC59 /* SceneDelegate.swift */,
 				322CE91729E91B7B0061BC59 /* ViewController.swift */,
 				322CE91929E91B7B0061BC59 /* Main.storyboard */,
+				3237E34429FB965700DCB16C /* PickProfilePicture.swift */,
+				32215BB929FB945D00ED1367 /* UserNamePage.swift */,
+				32215BB529FA499800ED1367 /* MyCollectionViewCell.swift */,
+				32215BB329F79B9D00ED1367 /* TopicViewController.swift */,
+				32215BB129F266BF00ED1367 /* LanguagesPage.swift */,
+				32215BAF29F1119100ED1367 /* popPopViewController.swift */,
+				32215BAD29EFB48400ED1367 /* InformationPage.swift */,
+				32215BAB29EFAE2600ED1367 /* OTPPage.swift */,
 				3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */,
 				3268299129EE7254001E1DB1 /* DPOTPView.swift */,
 				3231C04229EAAFB8001A542D /* SignUpMain.swift */,
@@ -169,14 +193,22 @@
 			files = (
 				3268299229EE7254001E1DB1 /* DPOTPView.swift in Sources */,
 				322CE91829E91B7B0061BC59 /* ViewController.swift in Sources */,
+				32215BB629FA499800ED1367 /* MyCollectionViewCell.swift in Sources */,
+				3237E34529FB965700DCB16C /* PickProfilePicture.swift in Sources */,
 				322CE91429E91B7B0061BC59 /* AppDelegate.swift in Sources */,
 				3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */,
 				322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */,
 				322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */,
+				32215BAC29EFAE2600ED1367 /* OTPPage.swift in Sources */,
 				3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */,
+				32215BB429F79B9D00ED1367 /* TopicViewController.swift in Sources */,
+				32215BB229F266BF00ED1367 /* LanguagesPage.swift in Sources */,
+				32215BBA29FB945D00ED1367 /* UserNamePage.swift in Sources */,
 				322CE92D29E9627D0061BC59 /* LoginPage.swift in Sources */,
 				322CE91E29E91B7B0061BC59 /* Twitter.xcdatamodeld in Sources */,
 				322CE92F29EA76AA0061BC59 /* ForgotPassword.swift in Sources */,
+				32215BAE29EFB48400ED1367 /* InformationPage.swift in Sources */,
+				32215BB029F1119100ED1367 /* popPopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

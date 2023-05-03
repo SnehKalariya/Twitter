@@ -14,5 +14,8 @@ class CreateAccountPage: UIViewController {
         super.viewDidLoad()
         label4.text = "Create your account"
     }
-    
+    @IBAction func NextButtonAction(_ sender: UIButton) {
+        let navigation = storyboard?.instantiateViewController(identifier: "InformationPage") as! InformationPage
+        navigationController?.pushViewController(navigation, animated: true)
+    }
 }

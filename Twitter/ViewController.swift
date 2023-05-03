@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         let navigation = storyboard?.instantiateViewController(identifier: "LoginPage") as! LoginPage
         navigationController?.pushViewController(navigation, animated: true)
     }
+    @IBAction func googleButtonAction(_ sender: UIButton) {
+        let navigation = storyboard?.instantiateViewController(identifier: "PopPopViewController") as! popPopViewController
+        navigationController?.pushViewController(navigation, animated: true)
+    }
     @IBAction func createAccountAction(_ sender: UIButton) {
         let navigation = storyboard?.instantiateViewController(identifier: "CreateAccountPage") as! CreateAccountPage
         navigationController?.pushViewController(navigation, animated: true)
