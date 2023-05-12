@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320D1F3C2A08C147000740A3 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320D1F3B2A08C147000740A3 /* HomePage.swift */; };
+		320D1F402A08EACC000740A3 /* MailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320D1F3F2A08EACC000740A3 /* MailPage.swift */; };
 		32215BAC29EFAE2600ED1367 /* OTPPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BAB29EFAE2600ED1367 /* OTPPage.swift */; };
 		32215BAE29EFB48400ED1367 /* InformationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BAD29EFB48400ED1367 /* InformationPage.swift */; };
 		32215BB029F1119100ED1367 /* popPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32215BAF29F1119100ED1367 /* popPopViewController.swift */; };
@@ -26,12 +28,15 @@
 		322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CE93029EA80880061BC59 /* CreateAccountPage.swift */; };
 		3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231C04229EAAFB8001A542D /* SignUpMain.swift */; };
 		3237E34529FB965700DCB16C /* PickProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237E34429FB965700DCB16C /* PickProfilePicture.swift */; };
+		3244879B2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244879A2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift */; };
 		3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */; };
 		3268299229EE7254001E1DB1 /* DPOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268299129EE7254001E1DB1 /* DPOTPView.swift */; };
 		3268299529EE72AD001E1DB1 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = 3268299429EE72AD001E1DB1 /* DPOTPView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320D1F3B2A08C147000740A3 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		320D1F3F2A08EACC000740A3 /* MailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailPage.swift; sourceTree = "<group>"; };
 		32215BAB29EFAE2600ED1367 /* OTPPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPPage.swift; sourceTree = "<group>"; };
 		32215BAD29EFB48400ED1367 /* InformationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationPage.swift; sourceTree = "<group>"; };
 		32215BAF29F1119100ED1367 /* popPopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popPopViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +58,7 @@
 		322CE93029EA80880061BC59 /* CreateAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPage.swift; sourceTree = "<group>"; };
 		3231C04229EAAFB8001A542D /* SignUpMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMain.swift; sourceTree = "<group>"; };
 		3237E34429FB965700DCB16C /* PickProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickProfilePicture.swift; sourceTree = "<group>"; };
+		3244879A2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageCollectionViewCell.swift; sourceTree = "<group>"; };
 		3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedioButtonPage.swift; sourceTree = "<group>"; };
 		3268299129EE7254001E1DB1 /* DPOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPOTPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +98,9 @@
 				322CE91529E91B7B0061BC59 /* SceneDelegate.swift */,
 				322CE91729E91B7B0061BC59 /* ViewController.swift */,
 				322CE91929E91B7B0061BC59 /* Main.storyboard */,
+				3244879A2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift */,
+				320D1F3F2A08EACC000740A3 /* MailPage.swift */,
+				320D1F3B2A08C147000740A3 /* HomePage.swift */,
 				3237E34429FB965700DCB16C /* PickProfilePicture.swift */,
 				32215BB929FB945D00ED1367 /* UserNamePage.swift */,
 				32215BB529FA499800ED1367 /* MyCollectionViewCell.swift */,
@@ -192,13 +201,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3268299229EE7254001E1DB1 /* DPOTPView.swift in Sources */,
+				320D1F402A08EACC000740A3 /* MailPage.swift in Sources */,
 				322CE91829E91B7B0061BC59 /* ViewController.swift in Sources */,
 				32215BB629FA499800ED1367 /* MyCollectionViewCell.swift in Sources */,
 				3237E34529FB965700DCB16C /* PickProfilePicture.swift in Sources */,
+				3244879B2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift in Sources */,
 				322CE91429E91B7B0061BC59 /* AppDelegate.swift in Sources */,
 				3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */,
 				322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */,
 				322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */,
+				320D1F3C2A08C147000740A3 /* HomePage.swift in Sources */,
 				32215BAC29EFAE2600ED1367 /* OTPPage.swift in Sources */,
 				3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */,
 				32215BB429F79B9D00ED1367 /* TopicViewController.swift in Sources */,

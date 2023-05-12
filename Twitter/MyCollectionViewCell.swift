@@ -9,4 +9,7 @@ import UIKit
 
 class MyCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var RedioButton: UIImageView!
+    @IBOutlet weak var labelForTopic: UILabel!
+    
 }
