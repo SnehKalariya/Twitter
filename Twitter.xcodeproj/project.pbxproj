@@ -29,6 +29,8 @@
 		3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231C04229EAAFB8001A542D /* SignUpMain.swift */; };
 		3237E34529FB965700DCB16C /* PickProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237E34429FB965700DCB16C /* PickProfilePicture.swift */; };
 		3244879B2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244879A2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift */; };
+		325D93B72A1DE2D50024A186 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325D93B62A1DE2D50024A186 /* TabBar.swift */; };
+		325D93B92A1F3D660024A186 /* homePageCollectionViewCellImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325D93B82A1F3D660024A186 /* homePageCollectionViewCellImage.swift */; };
 		3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */; };
 		3268299229EE7254001E1DB1 /* DPOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268299129EE7254001E1DB1 /* DPOTPView.swift */; };
 		3268299529EE72AD001E1DB1 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = 3268299429EE72AD001E1DB1 /* DPOTPView */; };
@@ -59,6 +61,8 @@
 		3231C04229EAAFB8001A542D /* SignUpMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMain.swift; sourceTree = "<group>"; };
 		3237E34429FB965700DCB16C /* PickProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickProfilePicture.swift; sourceTree = "<group>"; };
 		3244879A2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageCollectionViewCell.swift; sourceTree = "<group>"; };
+		325D93B62A1DE2D50024A186 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		325D93B82A1F3D660024A186 /* homePageCollectionViewCellImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageCollectionViewCellImage.swift; sourceTree = "<group>"; };
 		3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedioButtonPage.swift; sourceTree = "<group>"; };
 		3268299129EE7254001E1DB1 /* DPOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPOTPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,7 @@
 		322CE90729E91B7B0061BC59 = {
 			isa = PBXGroup;
 			children = (
+				325D93B82A1F3D660024A186 /* homePageCollectionViewCellImage.swift */,
 				322CE91229E91B7B0061BC59 /* Twitter */,
 				322CE91129E91B7B0061BC59 /* Products */,
 			);
@@ -98,6 +103,7 @@
 				322CE91529E91B7B0061BC59 /* SceneDelegate.swift */,
 				322CE91729E91B7B0061BC59 /* ViewController.swift */,
 				322CE91929E91B7B0061BC59 /* Main.storyboard */,
+				325D93B62A1DE2D50024A186 /* TabBar.swift */,
 				3244879A2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift */,
 				320D1F3F2A08EACC000740A3 /* MailPage.swift */,
 				320D1F3B2A08C147000740A3 /* HomePage.swift */,
@@ -211,6 +217,7 @@
 				322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */,
 				322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */,
 				320D1F3C2A08C147000740A3 /* HomePage.swift in Sources */,
+				325D93B92A1F3D660024A186 /* homePageCollectionViewCellImage.swift in Sources */,
 				32215BAC29EFAE2600ED1367 /* OTPPage.swift in Sources */,
 				3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */,
 				32215BB429F79B9D00ED1367 /* TopicViewController.swift in Sources */,
@@ -219,6 +226,7 @@
 				322CE92D29E9627D0061BC59 /* LoginPage.swift in Sources */,
 				322CE91E29E91B7B0061BC59 /* Twitter.xcdatamodeld in Sources */,
 				322CE92F29EA76AA0061BC59 /* ForgotPassword.swift in Sources */,
+				325D93B72A1DE2D50024A186 /* TabBar.swift in Sources */,
 				32215BAE29EFB48400ED1367 /* InformationPage.swift in Sources */,
 				32215BB029F1119100ED1367 /* popPopViewController.swift in Sources */,
 			);

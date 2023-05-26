@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(navigation, animated: true)
     }
     @IBAction func googleButtonAction(_ sender: UIButton) {
-        let navigation = storyboard?.instantiateViewController(identifier: "TopicViewController") as! TopicViewController
+        let navigation = storyboard?.instantiateViewController(identifier: "TabBar") as! TabBar
         navigationController?.pushViewController(navigation, animated: true)
     }
     @IBAction func createAccountAction(_ sender: UIButton) {
