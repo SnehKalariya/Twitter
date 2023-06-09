@@ -9,9 +9,9 @@ import UIKit
 
 class HomePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
-    var logoImage = [UIImage(named: "gujaratSamachar"),UIImage(named: "aajTak"),UIImage(named: "sandesh"),UIImage(named: "tata Words"),UIImage(named: "IndianPremierLeague"),UIImage(named: "gujaratSamachar"),UIImage(named: "aajTak"),UIImage(named: "Tv9Gujarati8"),UIImage(named: "gujaratSamachar"),UIImage(named: "sandesh"),UIImage(named: "gujaratSamachar"),UIImage(named: "gujaratSamachar"),UIImage(named: "aajTak"),UIImage(named: "gujaratSamachar"),UIImage(named: "gujaratSamachar"),UIImage(named: "IndianPremierLeague"),UIImage(named: "Tv9Gujarati"),UIImage(named: "gujaratSamachar"),UIImage(named: "aajTak"),UIImage(named: "gujaratSamachar")]
+    var logoImage = [UIImage(named: "gujaratSamachar"),UIImage(named: "aajTak"),UIImage(named: "sandesh"),UIImage(named: "tata Words"),UIImage(named: "IndianPremierLeague"),UIImage(named: "gujaratSamachar"),UIImage(named: "aajTak"),UIImage(named: "Tv9Gujarati"),UIImage(named: "gujaratSamachar"),UIImage(named: "sandesh"),UIImage(named: "gujaratSamachar"),UIImage(named: "gujaratSamachar"),UIImage(named: "aajTak"),UIImage(named: "gujaratSamachar"),UIImage(named: "gujaratSamachar"),UIImage(named: "IndianPremierLeague"),UIImage(named: "Tv9Gujarati"),UIImage(named: "gujaratSamachar"),UIImage(named: "aajTak"),UIImage(named: "gujaratSamachar")]
     
-    var name = ["gujaratSamachar","aajTak","sandesh","tata Words","IndianPremierLeague","gujaratSamachar","aajTak","Tv9Gujarati8","gujaratSamachar","sandesh","gujaratSamachar","gujaratSamachar","aajTak","gujaratSamachar","gujaratSamachar","","IndianPremierLeague","Tv9Gujarati","gujaratSamachar","aajTak","gujaratSamachar"]
+    var name = ["gujaratSamachar","aajTak","sandesh","tata Words","IndianPremierLeague","gujaratSamachar","aajTak","Tv9Gujarati","gujaratSamachar","sandesh","gujaratSamachar","gujaratSamachar","aajTak","gujaratSamachar","gujaratSamachar","IndianPremierLeague","Tv9Gujarati","gujaratSamachar","aajTak","gujaratSamachar"]
     
     var topicInformation = ["ધાર્મિક સ્વતંત્રતા અંગે ભારતની ટીકા કરતાં...","दिल्ली मेट्रो में गंदी हरकत करने वाले युवक...","WTC ફાઈનલ પહેલા સામે આવી ઓવલ...","श्री @RNTata2000 जी से मिलकर बहुत अच्छा लगा। में उनको अपने...","The Most Iconic picture of Virat Kohli.","શું લાગે છે, ધોની IPLમાંથી પણ સંન્યાસ લઈ લેશે???",".@SrBachchan ने सोशल मीडिया पर एक तस्वीर शेयर की है...","US Ambassador to India, Eric Garcetti met Reliance Industries CMD...","રવીન્દ્ર જાડેજા અને MLA પત્ની રિવાબા મળ્યા પીએમ મોદીને...","અમેરિકામાં દેવાના સંકટ વચ્ચે બાઈડેનની ઓસ્ટ્રેલિયામાં યોજાનારી ક્વાડ મીટિંગ રદ...","ચોરી અથવા ખોવાયેલો મોબાઈલ જાતે જ કરી શકાશે ટ્રેક, કેન્દ્રએ લોન્ચ કરી નવી સિસ્ટમ...","કેદારનાથમાં 60 ક્વિન્ટલનો ૐ લાગશે..."," क्या आप बता सकते हैं कि आईपीएल इतिहास में सर्वाधिक शतक लगाने का रिकॉर्ड किस बल्लेबाज़ के नाम है???","તમને આ ટાઈટન્સનો નવો કલર કેવો લાગ્યો? commentsમાં જણાવો...","હોમ ગ્રાઉન્ડ પર ધોનીની છેલ્લી IPL???","IPL 2023 Points Table!!!","MUKESH AMBANI એ એક દિવસમાં 92,98,82,65,000 રૂપિયા ગુમાવ્યા, જાણો હવે તેમની નેટવર્થ કેટલી છે???","અપરા એકાદશીએ દ્વારકાધીશ મંદિરથી આવતા મોટા સમાચાર...","Vande Bharat Express: मुंबई से गोवा के बीच चलेगी वंदे भारत ट्रेन...","રશિયાનો વળતો પ્રહાર, યુક્રેનમાં તૈનાત અમેરિકન પેટ્રિયટ મિસાઈલ સિસ્ટમ તોડી પાડી..."]
   
@@ -145,7 +145,5 @@ class HomePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             navigationController?.pushViewController(navigation, animated: true)
             navigation.null = "https://www.gujaratsamachar.com/news/international/russia-claims-to-destroy-us-made-patriot-air-defense-in-ukraine"
         }
-
-        
     }
 }

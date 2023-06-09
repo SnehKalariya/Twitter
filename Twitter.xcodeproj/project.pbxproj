@@ -34,6 +34,8 @@
 		3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */; };
 		3268299229EE7254001E1DB1 /* DPOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3268299129EE7254001E1DB1 /* DPOTPView.swift */; };
 		3268299529EE72AD001E1DB1 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = 3268299429EE72AD001E1DB1 /* DPOTPView */; };
+		3278FDC52A31A65100990DED /* FollowingPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278FDC42A31A65100990DED /* FollowingPageCollectionViewCell.swift */; };
+		32A6FC452A247367006E3D4C /* HomePageFollowingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A6FC442A247367006E3D4C /* HomePageFollowingPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		325D93B82A1F3D660024A186 /* homePageCollectionViewCellImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageCollectionViewCellImage.swift; sourceTree = "<group>"; };
 		3268298F29EE6126001E1DB1 /* RedioButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedioButtonPage.swift; sourceTree = "<group>"; };
 		3268299129EE7254001E1DB1 /* DPOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPOTPView.swift; sourceTree = "<group>"; };
+		3278FDC42A31A65100990DED /* FollowingPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		32A6FC442A247367006E3D4C /* HomePageFollowingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageFollowingPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +86,6 @@
 		322CE90729E91B7B0061BC59 = {
 			isa = PBXGroup;
 			children = (
-				325D93B82A1F3D660024A186 /* homePageCollectionViewCellImage.swift */,
 				322CE91229E91B7B0061BC59 /* Twitter */,
 				322CE91129E91B7B0061BC59 /* Products */,
 			);
@@ -103,7 +106,10 @@
 				322CE91529E91B7B0061BC59 /* SceneDelegate.swift */,
 				322CE91729E91B7B0061BC59 /* ViewController.swift */,
 				322CE91929E91B7B0061BC59 /* Main.storyboard */,
+				3278FDC42A31A65100990DED /* FollowingPageCollectionViewCell.swift */,
+				32A6FC442A247367006E3D4C /* HomePageFollowingPageViewController.swift */,
 				325D93B62A1DE2D50024A186 /* TabBar.swift */,
+				325D93B82A1F3D660024A186 /* homePageCollectionViewCellImage.swift */,
 				3244879A2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift */,
 				320D1F3F2A08EACC000740A3 /* MailPage.swift */,
 				320D1F3B2A08C147000740A3 /* HomePage.swift */,
@@ -213,12 +219,14 @@
 				3237E34529FB965700DCB16C /* PickProfilePicture.swift in Sources */,
 				3244879B2A0CC6A700DCC559 /* HomepageCollectionViewCell.swift in Sources */,
 				322CE91429E91B7B0061BC59 /* AppDelegate.swift in Sources */,
+				32A6FC452A247367006E3D4C /* HomePageFollowingPageViewController.swift in Sources */,
 				3268299029EE6126001E1DB1 /* RedioButtonPage.swift in Sources */,
 				322CE93129EA80880061BC59 /* CreateAccountPage.swift in Sources */,
 				322CE91629E91B7B0061BC59 /* SceneDelegate.swift in Sources */,
 				320D1F3C2A08C147000740A3 /* HomePage.swift in Sources */,
 				325D93B92A1F3D660024A186 /* homePageCollectionViewCellImage.swift in Sources */,
 				32215BAC29EFAE2600ED1367 /* OTPPage.swift in Sources */,
+				3278FDC52A31A65100990DED /* FollowingPageCollectionViewCell.swift in Sources */,
 				3231C04329EAAFB8001A542D /* SignUpMain.swift in Sources */,
 				32215BB429F79B9D00ED1367 /* TopicViewController.swift in Sources */,
 				32215BB229F266BF00ED1367 /* LanguagesPage.swift in Sources */,
